@@ -97,7 +97,7 @@ Includes:
 
 | OS Version | Docker Version Tested | Status |
 |-------------|-----------------------|---------|
-| Ubuntu 24.04 (Noble) | 28.5.2 → 27.3.1 | ✅ Working |
+| Ubuntu 24.04 (Noble) | 20.0.0 → 28.5.2 | ✅ Working |
 | Ubuntu 22.04 (Jammy) | 27.3.1 → 26.1.2 | ✅ Working |
 
 ---
@@ -113,5 +113,5 @@ Feel free to use, modify, and distribute under the same terms.
 
 **Nima Estakhri**  
 Senior Software Engineer  
-📧 Contact: [your.email@example.com]  
-🌐 GitHub: [https://github.com/<your-username>](https://github.com/<your-username>)
+📧 Contact: [nima@estakhri.ir]  
+🌐 GitHub: [https://github.com/<your-username>](https://github.com/estakhri)
