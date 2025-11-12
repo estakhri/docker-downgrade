@@ -114,4 +114,4 @@ Feel free to use, modify, and distribute under the same terms.
 **Nima Estakhri**  
 Senior Software Engineer  
 📧 Contact: [nima@estakhri.ir]  
-🌐 GitHub: [https://github.com/<your-username>](https://github.com/estakhri)
+🌐 GitHub: [https://github.com/estakhri](https://github.com/estakhri)
