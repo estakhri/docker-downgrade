@@ -8,6 +8,8 @@ DOCKER_PACKAGES=("docker-ce" "docker-ce-cli" "containerd.io" "docker-buildx-plug
 echo "=== Step 1: Preparing environment ==="
 sudo apt update -y
 sudo apt install -y jq fzf curl ca-certificates gnupg lsb-release
+echo "Disabling auto upgrade for Docker packages..."
+sudo apt-mark hold docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 echo "=== Step 2: Adding Docker repository (if missing) ==="
 if [ ! -f /etc/apt/keyrings/docker.gpg ]; then
