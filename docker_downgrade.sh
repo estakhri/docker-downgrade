@@ -105,5 +105,22 @@ done
 
 echo "=== Step 11: Done! ==="
 echo "Backup directory: $BACKUP_DIR"
+read -p "Do you want to remove the backup directory ($BACKUP_DIR)? [y/N]: " confirm
+case "$confirm" in
+    [yY][eE][sS]|[yY])
+        echo "Removing backup directory..."
+        rm -rf "$BACKUP_DIR"
+        echo "Backup directory removed."
+        ;;
+    *)
+        echo "Backup directory kept at: $BACKUP_DIR"
+        ;;
+esac
+echo ""
+echo "Docker Current Status:"
 docker ps -a
 docker images
+
+echo ""
+echo "All operations completed successfully ✅"
+echo ""
