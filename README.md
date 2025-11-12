@@ -97,7 +97,7 @@ Includes:
 
 | OS Version | Docker Version Tested | Status |
 |-------------|-----------------------|---------|
-| Ubuntu 24.04 (Noble) | 20.0.0 → 28.5.2 | ✅ Working |
+| Ubuntu 24.04 (Noble) | 29.0.0 → 28.5.2 | ✅ Working |
 | Ubuntu 22.04 (Jammy) | 27.3.1 → 26.1.2 | ✅ Working |
 
 ---
